@@ -1,0 +1,83 @@
+.container {
+    background-color: #0A0C22;
+    color: white;
+    padding: 2rem;
+    min-height: 100vh;
+  }
+  
+  .heading {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    padding: 90px 20px 5px;
+  }
+  
+  .subheading {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-bottom: 100px;
+  }
+  
+  .productCard {
+    background-color: #2b2b4a;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    flex-basis: 26%;
+    position: relative;
+  }
+  
+  .productCard h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .price {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+  
+  .features {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+  }
+  
+  .features li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .selectButton {
+    background-color: #4e73df;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .selectButton:hover {
+    background-color: #375ab7;
+  }
+  
+  .recommended {
+    background-color: #4a4a7a;
+    border: 2px solid #ffb400;
+  }
+  
+  .recommendedButton {
+    background-color: #ffb400;
+  }
+  
+  .recommendedButton:hover {
+    background-color: #e0a200;
+  }
+  
